@@ -1,0 +1,7 @@
+{
+  "version": "0.9.0-test2",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v0.9.0-test2/CoachManagement-0.9.0-test2.zip",
+  "sha256": "D8E433952C3C4E5FCB9861FBA50724A8637432B3AB60882E40D8EF1AF99EAE70",
+  "required": false,
+  "notes": "Kakao browser separation, bug report logs, sidebar/layout fixes, schedule assignment layout updates"
+}
