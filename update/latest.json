@@ -1,7 +1,7 @@
 {
-  "version": "0.9.0-test3",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v0.9.0-test3/CoachManagement-0.9.0-test3.zip",
-  "sha256": "ACE42329E4586C933EF1C594AC07DA6485627E8F60D92BB676BE4F9BA14A09A4",
+  "version": "0.9.0-test4",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v0.9.0-test4/CoachManagement-0.9.0-test4.zip",
+  "sha256": "D957DFDEF35E132A56F095E8D30D0EDFE6F98E3790DA2F92051AB9DE6435D42E",
   "required": false,
-  "notes": "LMS 창 자동 최소화\n시간표 특강류 조회/삭제 지원\n시간표 학년 자동 선택 보정"
+  "notes": "자동업데이트 fallback 및 패키징 정비\n카카오 알림 버튼/패널 UI 정리\n코칭 결과보기 문항별 정오답/선택값 표시\n시간표 배정 UI 화이트톤 개편 및 그리드 안정화\n시간표 특강/기타 배정 삭제 안내 추가"
 }
