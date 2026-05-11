@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.1/CoachManagement-1.0.1.zip",
-  "sha256": "710D984080C0E728A3EDB1C7C11B5970859A75734B7F0B41C8D473C7896A22A8",
+  "sha256": "4E547F552C5970BEBE5B1915E810A4DEB4E2F106AC72FAA992213CD6C2E093C2",
   "required": false,
   "notes": "릴리즈 자산을 단일 zip 구조로 정리\n자동업데이트가 릴리즈 zip 내부 bin 폴더만 교체하도록 변경\n배포 산출물과 로컬 생성물 정리\n코칭 결과보기 문항별 정오답/선택값 표시 개선\n시간표 배정 UI 안정화 및 시각 정리"
 }
