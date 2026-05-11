@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.2/CoachManagement-1.0.2.zip",
-  "sha256": "FE2032BE1238AADB7158C9A5FACFC0A2B400914418567107BB29A1098DA6FAF5",
+  "version": "1.0.3",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.3/CoachManagement-1.0.3.zip",
+  "sha256": "25B0436CF3A51276F5D0A1F4F5FC4FA1F92E35CB3BE40B196077265AA539DBED",
   "required": false,
-  "notes": "메인 프로그램 종료 시 팝업과 Selenium 창 일괄 종료\nSelenium data/about/chrome-error 상태 감지 및 재시도/복구\nLMSOne 동기화 상세페이지 필수 필드 검증 추가\n내 학생 관리 검색 디바운스와 검색 인덱스 최적화\n내 학생 관리에서 상세정보를 열어도 관리 팝업 유지\n카카오 중복 로그 과다 출력 방지\n닫힌 위젯 접근으로 발생하는 bad window path 오류 방어"
+  "notes": "런처 오류 발생 시 팝업 확인 후 즉시 종료\n런처 X 버튼으로 닫기 허용\n업데이트 중 파일 잠금 WinError 32 안내 메시지 개선\nCLI 런처 실패 시 종료 코드 반환"
 }
