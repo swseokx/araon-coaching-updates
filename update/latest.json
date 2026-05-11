@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.1/CoachManagement-1.0.1.zip",
-  "sha256": "7EAAC4D8AEF321DDC037C1659EF36521492F3937B58F85A9990040BE7D602950",
+  "version": "1.0.2",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.2/CoachManagement-1.0.2.zip",
+  "sha256": "FE2032BE1238AADB7158C9A5FACFC0A2B400914418567107BB29A1098DA6FAF5",
   "required": false,
-  "notes": "로컬 LMS 동기화 개인정보 저장 정책 정리\n내 학생 관리, 학생 추가, 삭제 요청/승인 흐름 추가\n단체 카카오톡 발송 기능 추가\n카카오톡 알림 권한, 팝업, 알림음, 지연 알림 기준 개선\n동기화 중 중앙 진행 팝업과 화면 잠금 처리\n보강 등록/삭제 표시와 상세정보 즉시 갱신 개선\n시간표 배정 검색 포커스, Enter 검색, 배정 로그 추가\n릴리즈 zip 구조와 자동업데이트 bin 교체 흐름 정리"
+  "notes": "메인 프로그램 종료 시 팝업과 Selenium 창 일괄 종료\nSelenium data/about/chrome-error 상태 감지 및 재시도/복구\nLMSOne 동기화 상세페이지 필수 필드 검증 추가\n내 학생 관리 검색 디바운스와 검색 인덱스 최적화\n내 학생 관리에서 상세정보를 열어도 관리 팝업 유지\n카카오 중복 로그 과다 출력 방지\n닫힌 위젯 접근으로 발생하는 bad window path 오류 방어"
 }
