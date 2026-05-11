@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.3/CoachManagement-1.0.3.zip",
-  "sha256": "25B0436CF3A51276F5D0A1F4F5FC4FA1F92E35CB3BE40B196077265AA539DBED",
+  "version": "1.0.4",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.4/CoachManagement-1.0.4.zip",
+  "sha256": "BDBA3AEEE4BEA8C8193C4211B84D3AF3622356BAD7E5F340708601F64A4CF665",
   "required": false,
-  "notes": "런처 오류 발생 시 팝업 확인 후 즉시 종료\n런처 X 버튼으로 닫기 허용\n업데이트 중 파일 잠금 WinError 32 안내 메시지 개선\nCLI 런처 실패 시 종료 코드 반환"
+  "notes": "자동 LMSOne 동기화 중 전체 화면 잠금 제거\n동기화 중 LMSOne/카카오 자동화 기능만 임시 차단\nLMSOne 담당학생 목록/상세정보 파싱 진행 로그 추가\n자동 동기화 시작 타이밍을 카카오 로그인 완료 이후로 조정"
 }
