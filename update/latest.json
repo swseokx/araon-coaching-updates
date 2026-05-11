@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.1/CoachManagement-1.0.1.zip",
-  "sha256": "E9C294CE6F916EAFBC8B8EA5848D1AF1308984AA02707DD959DB4DA4F789493A",
+  "sha256": "7EAAC4D8AEF321DDC037C1659EF36521492F3937B58F85A9990040BE7D602950",
   "required": false,
-  "notes": "릴리즈 자산을 단일 zip 구조로 정리\n자동업데이트가 릴리즈 zip 내부 bin 폴더만 교체하도록 변경\n배포 산출물과 로컬 생성물 정리\n코칭 결과보기 문항별 정오답/선택값 표시 개선\n시간표 배정 UI 안정화 및 시각 정리"
+  "notes": "로컬 LMS 동기화 개인정보 저장 정책 정리\n내 학생 관리, 학생 추가, 삭제 요청/승인 흐름 추가\n단체 카카오톡 발송 기능 추가\n카카오톡 알림 권한, 팝업, 알림음, 지연 알림 기준 개선\n동기화 중 중앙 진행 팝업과 화면 잠금 처리\n보강 등록/삭제 표시와 상세정보 즉시 갱신 개선\n시간표 배정 검색 포커스, Enter 검색, 배정 로그 추가\n릴리즈 zip 구조와 자동업데이트 bin 교체 흐름 정리"
 }
