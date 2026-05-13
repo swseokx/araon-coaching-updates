@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.4/CoachManagement-1.0.4.zip",
-  "sha256": "BDBA3AEEE4BEA8C8193C4211B84D3AF3622356BAD7E5F340708601F64A4CF665",
+  "version": "1.0.5",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.5/CoachManagement-1.0.5.zip",
+  "sha256": "6C00B2188340296A8AFC86EA385ACB09A607EC36B0B5243E7951549512EE25F0",
   "required": false,
-  "notes": "자동 LMSOne 동기화 중 전체 화면 잠금 제거\n동기화 중 LMSOne/카카오 자동화 기능만 임시 차단\nLMSOne 담당학생 목록/상세정보 파싱 진행 로그 추가\n자동 동기화 시작 타이밍을 카카오 로그인 완료 이후로 조정"
+  "notes": "내 담당 학생 대시보드에 검색, 리스트 보기, 표 보기 전환 추가\n내 담당 학생 검색을 이름/초성/학년/연락처/코칭시간 기준으로 즉시 필터링\nLMSOne 상세 동기화를 계정별 월 1회 기준으로 변경\n계정별 로컬 캐시 DB를 local_cache/<lms_id>.sqlite 형태로 분리 저장\n월 동기화 상세 파싱 진행 상황을 상단 진행바와 로그에 같이 표시\n동기화 후 서버 비교 단계의 불필요한 학생별 0.3초 대기 제거\n동기화 중 카카오 알림 클릭 허용 및 알림 리스트 지속 업데이트 보강\n카카오 알림은 설정한 기준 시간보다 오래된 미읽음 채팅을 계속 표시하고, 읽음/사라진 채팅은 제거\n단체 카톡 전송을 카카오 전용 탭 이동 방식으로 변경해 창 누적과 닫힘 문제 완화\n카카오 상담 완료 처리에서 상담중 클릭 후 상담 완료하기/확인 버튼 대기 및 클릭 안정화\nLMSOne/카카오 Selenium 창을 최대화 대신 창모드로 실행\ndata/about:blank 상태에서 Selenium 창을 즉시 종료하지 않고 복구 이동하도록 변경\n보강/코칭시간/만료일 저장 후 로컬 캐시를 즉시 갱신해 대시보드 새로고침 시 빈 목록이 뜨는 문제 완화\n팀장/관리자용 팀 학생 관리 진입과 팀 전체/선택 교사 단체 카톡 버튼 추가\n학생 추가 시 팀장/관리자가 DB의 코칭교사를 선택할 수 있도록 개선\n삭제 요청 관리 버튼을 메인 하단에 표시하고 대기 건수 배지 반영\n환경설정 및 인사관리 수정 팝업 세로 크기 확대"
 }
