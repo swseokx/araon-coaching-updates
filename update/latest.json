@@ -1,7 +1,7 @@
 {
-  "version": "1.0.9",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.9/CoachManagement-1.0.9.zip",
-  "sha256": "2F2B04C33B4B469CAA8BAFDA7205D65B09E036339FDDCFA954843BE72401DB09",
+  "version": "1.0.10",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.10/CoachManagement-1.0.10.zip",
+  "sha256": "07DC202DC56BBCE60086744C143498E070AB3176199B3ED1BC920155A6A99ACC",
   "required": false,
-  "notes": "CoachManagement 1.0.9\n\n- 카카오톡 알림 대상 필터를 카카오 관리 페이지의 담당자 이름 기준으로 정확히 비교하도록 수정\n- 담당 없는 카카오톡은 담당 영역이 없는 채팅 항목으로 판별하도록 유지\n- 카카오톡 알림 대상 변경 시 기존 대상에서 제외된 알림을 즉시 제거\n- 카카오톡 알림 목록/팝업에 담당자와 수신 시간을 함께 표시\n- 카카오톡 팝업 알림이 여러 건 발생하면 한 건만 보이지 않고 여러 개가 겹치지 않게 표시\n- 카카오톡 팝업 알림의 메시지 영역이 잘리지 않도록 높이와 줄바꿈 처리 개선\n- 카카오톡 관리 페이지에서 채팅방을 눌렀을 때 열리는 개별 채팅창 크기를 작은 창 모드로 조정\n- 카카오톡 알림 기준 명칭을 미응답 경과 기준으로 변경\n- 메인 프로그램 제목 표시줄/작업표시줄/팝업 아이콘을 favicon.ico로 반복 적용하도록 보강\n- 서버/카카오톡 상태등을 공지 영역 오른쪽에 한 줄로 정리\n- 클라이언트 UI 기본 글꼴을 Malgun Gothic으로 통일"
+  "notes": "CoachManagement 1.0.10\n\n- 카카오톡 알림 목록을 innerHTML 전체가 아니라 실제 화면에 보이는 채팅 항목 기준으로 읽도록 수정\n- 상담완료 후 카카오 내부 DOM에 남은 채팅이 코칭 알림에 계속 표시될 수 있는 문제 완화\n- 카카오 알림 폴링 시 개별 채팅창/빈 탭이 아니라 카카오 채팅 목록 탭에서만 읽도록 방어\n- 카카오 알림 목록이 5회 연속 동일하고 신규/제거 변화가 없으면 채팅 목록 탭만 조건부 새로고침\n- 조건부 새로고침 시 로그에 카카오 채팅 목록 새로고침 기록을 남기도록 추가"
 }
