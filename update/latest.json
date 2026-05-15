@@ -1,7 +1,7 @@
 {
-  "version": "1.0.7",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.7/CoachManagement-1.0.7.zip",
-  "sha256": "A567595DA802CA5F1DFB6693938342E369FCFF78396CBBE2C2C811A2652F2390",
+  "version": "1.0.9",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.9/CoachManagement-1.0.9.zip",
+  "sha256": "2F2B04C33B4B469CAA8BAFDA7205D65B09E036339FDDCFA954843BE72401DB09",
   "required": false,
-  "notes": "CoachManagement 1.0.7\n\n- 팀 카톡 링크 동기화를 LMSOne 전체 학생 스캔이 아닌 서버의 해당 팀 학생 목록 기준으로 제한\n- 팀 카톡 링크 동기화 완료 이력이 있으면 팀 전체 카톡 버튼을 활성화\n- LMSOne 상세정보 파싱은 기본 LMS 탭/카카오 관리 탭을 건드리지 않고 전용 파싱 탭을 재사용\n- 상세정보 파싱 중 불필요한 최소화/탭 생성/닫기 반복을 제거해 포커스 흔들림 완화\n- 팀 전체 코칭 현황은 coach_summary 요약 컬렉션을 먼저 사용하고, 없을 때만 students 스캔으로 fallback\n- 팀 전체 코칭 현황 진입 시 첫 번째 코치 학생 목록 자동 호출을 제거해 초기 로딩 속도 개선\n- 화면 전환 후 남아 있던 자동 갱신 콜백이 삭제된 Tkinter 위젯을 참조해 반복 오류를 내던 문제 방어"
+  "notes": "CoachManagement 1.0.9\n\n- 카카오톡 알림 대상 필터를 카카오 관리 페이지의 담당자 이름 기준으로 정확히 비교하도록 수정\n- 담당 없는 카카오톡은 담당 영역이 없는 채팅 항목으로 판별하도록 유지\n- 카카오톡 알림 대상 변경 시 기존 대상에서 제외된 알림을 즉시 제거\n- 카카오톡 알림 목록/팝업에 담당자와 수신 시간을 함께 표시\n- 카카오톡 팝업 알림이 여러 건 발생하면 한 건만 보이지 않고 여러 개가 겹치지 않게 표시\n- 카카오톡 팝업 알림의 메시지 영역이 잘리지 않도록 높이와 줄바꿈 처리 개선\n- 카카오톡 관리 페이지에서 채팅방을 눌렀을 때 열리는 개별 채팅창 크기를 작은 창 모드로 조정\n- 카카오톡 알림 기준 명칭을 미응답 경과 기준으로 변경\n- 메인 프로그램 제목 표시줄/작업표시줄/팝업 아이콘을 favicon.ico로 반복 적용하도록 보강\n- 서버/카카오톡 상태등을 공지 영역 오른쪽에 한 줄로 정리\n- 클라이언트 UI 기본 글꼴을 Malgun Gothic으로 통일"
 }
