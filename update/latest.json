@@ -1,7 +1,7 @@
 {
-  "version": "1.0.8",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.8/CoachManagement-1.0.8.zip",
-  "sha256": "43F42EC64A91C9318EB79C4E1E00A6320AA53AA31EB31CFDC3A2A3580AB75F99",
+  "version": "1.0.7",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.7/CoachManagement-1.0.7.zip",
+  "sha256": "A567595DA802CA5F1DFB6693938342E369FCFF78396CBBE2C2C811A2652F2390",
   "required": false,
-  "notes": "CoachManagement 1.0.8\n\n- 배포 폴더 최상위에는 Launcher.exe와 bin 폴더만 보이도록 정리\n- config.json, favicon.ico, kakaotalk_alarm.mp3를 모두 bin 폴더 안에 포함\n- 런처가 bin/config.json도 읽을 수 있도록 업데이트\n- 런처, 메인 프로그램, 메인 프로그램 팝업에 favicon.ico 아이콘 적용 경로 유지\n- 메인 사이드바에 서버 정상/이상 상태와 카카오톡 로그인 상태 표시 추가\n- 카카오톡 기능 사용 시 로그인이 안 되어 있으면 카카오 로그인 창을 열고 재시도 안내\n- 코칭 알림 루프가 30초마다 서버 학생 목록을 조회하던 동작을 로컬/화면 데이터 기준으로 최적화\n- 시간 비교를 datetime 파싱 반복 대신 분 단위 정수 비교로 변경해 화면 갱신 비용 감소"
+  "notes": "CoachManagement 1.0.7\n\n- 팀 카톡 링크 동기화를 LMSOne 전체 학생 스캔이 아닌 서버의 해당 팀 학생 목록 기준으로 제한\n- 팀 카톡 링크 동기화 완료 이력이 있으면 팀 전체 카톡 버튼을 활성화\n- LMSOne 상세정보 파싱은 기본 LMS 탭/카카오 관리 탭을 건드리지 않고 전용 파싱 탭을 재사용\n- 상세정보 파싱 중 불필요한 최소화/탭 생성/닫기 반복을 제거해 포커스 흔들림 완화\n- 팀 전체 코칭 현황은 coach_summary 요약 컬렉션을 먼저 사용하고, 없을 때만 students 스캔으로 fallback\n- 팀 전체 코칭 현황 진입 시 첫 번째 코치 학생 목록 자동 호출을 제거해 초기 로딩 속도 개선\n- 화면 전환 후 남아 있던 자동 갱신 콜백이 삭제된 Tkinter 위젯을 참조해 반복 오류를 내던 문제 방어"
 }
