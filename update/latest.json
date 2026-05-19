@@ -1,7 +1,7 @@
 {
-  "version": "1.0.11",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.11/CoachManagement-1.0.11.zip",
-  "sha256": "734B0C4F9DDB61D4B1FFA11E4B52092459F7B2861122F28EA2AD766B469FF0EC",
+  "version": "1.0.12",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.12/CoachManagement-1.0.12.zip",
+  "sha256": "ECA7BFAF2524537EE453B86DBC9E252349A2BF5A76F11E8782C5553DD8D6FB67",
   "required": false,
-  "notes": "CoachManagement 1.0.11\n\n- 카카오 알림 클릭 시 index 기반 클릭을 제거하고, 대화방 이름/담당자/시간이 일치하는 실제 DOM 요소만 클릭하도록 수정\n- 잘못된 카카오 대화방이 열릴 수 있는 치명적 문제를 방어하고, 매칭이 불명확하면 클릭하지 않도록 변경\n- 카카오 알림 클릭 전 사용자용 카카오 창을 새로고침한 뒤 다시 목록을 읽도록 수정\n- 이미 상담완료되어 카카오 센터에서 사라진 대화는 클릭 시 알림 목록에서 제거\n- 카카오 자동 폴링 창과 사용자 확인용 창을 분리하여 자동 새로고침 창이 앞으로 튀어나오는 문제 완화\n- 카카오 알림 여러 건이 동시에 표시될 때 알림음은 한 번만 재생되도록 수정\n- 카카오 알림은 목록에서 1회 미검출되더라도 바로 제거하지 않고, 3회 연속 미검출될 때만 제거하도록 수정\n- 연동 브라우저 종료 경고 토스트에서 확인 버튼 제거\n- 카카오 브라우저가 닫히거나 세션이 끊긴 경우 자동 복구 시도 추가\n- 카카오 알림 로그를 별도 로그 버튼에서 확인할 수 있도록 보강"
+  "notes": "CoachManagement 1.0.12\n\n- 카카오 로그인 대기 중 자동 복구 루프가 로그인 페이지를 반복 새로고침하던 치명적 문제 수정\n- 이미 카카오 로그인 페이지에 진입한 상태에서는 `open_kakao_biz()`가 URL을 다시 열지 않고 현재 로그인 화면을 유지하도록 변경\n- 카카오 로그인 진행 중에는 대시보드 Selenium 복구 루프가 카카오 창 재열기를 시도하지 않도록 방어\n- 카카오 로그인 완료 후에만 채팅 목록/폴링 창 분리 로직이 진행되도록 안정화"
 }
