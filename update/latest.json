@@ -1,7 +1,7 @@
 {
-  "version": "1.0.17",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.17/CoachManagement-1.0.17.zip",
-  "sha256": "1185543E2EC44DF6194471889B4569607323CD7FC65A3E7BDF22A1F3641A905B",
+  "version": "1.0.18",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.18/CoachManagement-1.0.18.zip",
+  "sha256": "63E62315EF202A4BF4E91A8D58ED6663645ACD8B934045171F707B09A389683E",
   "required": false,
-  "notes": "CoachManagement 1.0.17\n\n- 런처 실행 버튼을 Canvas 기반 고정 높이 버튼으로 재구현\n- 실행 버튼 실제 표시 높이를 로컬 측정 기준 88px로 확보해 글자 잘림 수정\n- 런처 창 높이를 늘려 로그인 영역과 실행 버튼이 압축되지 않도록 수정\n- 카카오 수동 확인 창과 화면 밖 폴링 창 분리 유지"
+  "notes": "CoachManagement 1.0.18\n\n- 카카오톡 최초 로그인 대기 화면이 뜬 뒤 카카오 로그인 창을 한 번 최상단으로 올리도록 수정\n- 자동 폴링/복구 중에는 카카오 창이 반복적으로 앞으로 튀어나오지 않도록 초기 로그인 대기 흐름과 분리\n- 1.0.17의 런처 실행 버튼 고정 높이 수정 유지\n- 카카오 수동 확인 창과 화면 밖 폴링 창 분리 유지"
 }
