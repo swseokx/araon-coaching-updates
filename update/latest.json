@@ -1,7 +1,7 @@
 {
-  "version": "1.0.12",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.12/CoachManagement-1.0.12.zip",
-  "sha256": "ECA7BFAF2524537EE453B86DBC9E252349A2BF5A76F11E8782C5553DD8D6FB67",
+  "version": "1.0.14",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.14/CoachManagement-1.0.14.zip",
+  "sha256": "5D165C32249FD3FC408B7BFA8A76F039EBB4B2AAA894587371B20EC97F0333E3",
   "required": false,
-  "notes": "CoachManagement 1.0.12\n\n- 카카오 로그인 대기 중 자동 복구 루프가 로그인 페이지를 반복 새로고침하던 치명적 문제 수정\n- 이미 카카오 로그인 페이지에 진입한 상태에서는 `open_kakao_biz()`가 URL을 다시 열지 않고 현재 로그인 화면을 유지하도록 변경\n- 카카오 로그인 진행 중에는 대시보드 Selenium 복구 루프가 카카오 창 재열기를 시도하지 않도록 방어\n- 카카오 로그인 완료 후에만 채팅 목록/폴링 창 분리 로직이 진행되도록 안정화"
+  "notes": "CoachManagement 1.0.14\n\n- 카카오 로그인 대기 중 같은 로그인 페이지를 반복해서 새 탭으로 여는 문제 수정\n- 카카오 채팅 목록 창은 기존 크기를 유지하고, 일반 대화방 URL만 390x900 크기로 조정\n- 카카오 사진/미디어 URL은 창 크기 조정을 하지 않도록 분리\n- 클라이언트 로그인/대기 화면에서 최근 실행 로그를 바로 볼 수 있도록 추가\n- 런처 업데이트 검증용 최신 버전"
 }
