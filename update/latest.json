@@ -1,7 +1,7 @@
 {
-  "version": "1.0.18",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.18/CoachManagement-1.0.18.zip",
-  "sha256": "63E62315EF202A4BF4E91A8D58ED6663645ACD8B934045171F707B09A389683E",
+  "version": "1.0.19",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.19/CoachManagement-1.0.19.zip",
+  "sha256": "4C77337A7A11A9C844C7C1AA653479096AA85065C5C90F143947147AE2F9904C",
   "required": false,
-  "notes": "CoachManagement 1.0.18\n\n- 카카오톡 최초 로그인 대기 화면이 뜬 뒤 카카오 로그인 창을 한 번 최상단으로 올리도록 수정\n- 자동 폴링/복구 중에는 카카오 창이 반복적으로 앞으로 튀어나오지 않도록 초기 로그인 대기 흐름과 분리\n- 1.0.17의 런처 실행 버튼 고정 높이 수정 유지\n- 카카오 수동 확인 창과 화면 밖 폴링 창 분리 유지"
+  "notes": "CoachManagement 1.0.19\n\n- API 파일 업로드 요청에서 JSON Content-Type 고정 헤더를 제거해 multipart 업로드 안정성 개선\n- 런처 업데이트 zip 해제 경로 검증과 업데이트 실패 시 기존 bin 폴더 롤백 처리 추가\n- 카카오 자동 복구/로그인 창 열기 중복 실행 방지로 새 탭 반복 생성 가능성 완화\n- 로컬 SQLite 캐시에 WAL/busy timeout 적용해 동기화 중 database locked 가능성 완화\n- 서버 코치 사번 생성에 Firestore counter transaction 적용해 동시 생성 충돌 가능성 완화\n- 팀장 계정의 코치 목록 응답에서 lmsone 비밀번호 노출 제거\n- 카카오 알림 권한 저장 시 같은 팀/허용 대상인지 서버에서 검증\n- 카카오 CDP 전환 후 사용하지 않는 legacy DOM 폴링 함수 정리"
 }
