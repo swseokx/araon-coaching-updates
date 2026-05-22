@@ -1,7 +1,7 @@
 {
-  "version": "1.0.20",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.20/CoachManagement-1.0.20.zip",
-  "sha256": "669AFE4A9C518053D253E3B82664386294D1CF635B8C3BF70C9F63CA7125BA0F",
+  "version": "1.0.21",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.21/CoachManagement-1.0.21.zip",
+  "sha256": "ED70CF0FB9F917B00171E15FF1E74237186A32A5A244FFAC78D8577CC74A6904",
   "required": false,
-  "notes": "CoachManagement 1.0.20\n\n- Chrome DevTools WebSocket 연결이 403 Forbidden으로 거부되어 카카오 원본목록을 읽지 못하던 문제 수정\n- Chrome 실행 옵션에 remote-allow-origins 허용값을 추가해 CDP 연결 안정성 개선\n- CDP WebSocket 연결 시 Origin 헤더를 보내지 않도록 처리해 Chrome 버전별 origin 검증 문제 완화"
+  "notes": "CoachManagement 1.0.21\n\n- 카카오 알림 폴링 기본 주기를 90초로 조정해 프로그램 렉 완화\n- 카카오 알림 상세 RAW 로그 수집을 기본 비활성화해 UI/로그 부하 감소\n- 카카오 ChromeDriver health check 실패 기준을 3회에서 8회로 완화\n- 카카오 health check가 반복 실패해도 Chrome을 강제 종료하지 않고 내부 연결만 해제하도록 변경"
 }
