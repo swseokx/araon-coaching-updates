@@ -1,7 +1,7 @@
 {
-  "version": "1.0.21",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.21/CoachManagement-1.0.21.zip",
-  "sha256": "ED70CF0FB9F917B00171E15FF1E74237186A32A5A244FFAC78D8577CC74A6904",
+  "version": "1.0.22",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.22/CoachManagement-1.0.22.zip",
+  "sha256": "6EB11B511F0C409725119602DA8CB342871892E0BE2E698736267DA442089D4A",
   "required": false,
-  "notes": "CoachManagement 1.0.21\n\n- 카카오 알림 폴링 기본 주기를 90초로 조정해 프로그램 렉 완화\n- 카카오 알림 상세 RAW 로그 수집을 기본 비활성화해 UI/로그 부하 감소\n- 카카오 ChromeDriver health check 실패 기준을 3회에서 8회로 완화\n- 카카오 health check가 반복 실패해도 Chrome을 강제 종료하지 않고 내부 연결만 해제하도록 변경"
+  "notes": "CoachManagement 1.0.22\n\n- 카카오 ChromeDriver 연결이 끊겼을 때 기존 Chrome DevTools 주소로 재연결을 우선 시도하도록 개선\n- 카카오 상태등에 재연결/분리 상태를 노란색으로 표시해 알림 상태를 더 명확하게 표시\n- 카카오 알림 패널에 재연결 버튼 추가\n- 자동 카카오 복구와 폴링 복구가 새 Chrome 생성 전에 기존 카카오 Chrome 재연결을 먼저 시도하도록 변경"
 }
