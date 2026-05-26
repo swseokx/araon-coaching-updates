@@ -1,7 +1,7 @@
 {
-  "version": "1.0.23",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.23/CoachManagement-1.0.23.zip",
-  "sha256": "A1682C4010CD8F1A5056080B3BE7C8CBAE735D11F3C53AA75CC7F72119E3CDC2",
+  "version": "1.0.24",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.24/CoachManagement-1.0.24.zip",
+  "sha256": "3BB91276535A1E028BC600CDA78653F5F46FAA0B33490105B1B4CD3525389D03",
   "required": false,
-  "notes": "CoachManagement 1.0.23\n\n- 창 순위 정책 정리: 일반 팝업/로그창은 항상위 고정을 제거하고 토스트 알림만 항상위 유지\n- 카카오 알림 로그 팝업이 다른 프로그램 위에 계속 떠 있는 문제 수정\n- 프로그램 시작 흐름 개선: 앱 로그인 후 LMSOne 로그인, 카카오 로그인, 상태 확인 진행률을 로그인 화면에서 순서대로 표시\n- 카카오 로그인 창이 열릴 때 뒤로 묻히는 상황을 줄이도록 로그인 단계에서 카카오 창 전면화를 한 번 수행\n- 카카오 알림 폴링 최적화: 카카오 DOM을 대상자별 반복 조회하지 않고 1회 조회 후 담당자 set 필터로 처리\n- 카카오 날짜형 시간(예: 5월 24일)도 미처리 대화 알림 대상으로 처리\n- 카카오 폴링 단계별 소요시간 로그 추가\n- 종료 시 Selenium driver.quit() 멈춤으로 프로그램이 응답없음 상태에 빠지는 문제 완화\n- 이전 실행에서 남은 카카오 Chrome 프로필 잠금 감지 및 정리 후 재연결 버튼 추가"
+  "notes": "CoachManagement 1.0.24\n\n- 시작 연동 진행 안내를 로그인 화면 문구 중심에서 토스트 알림 중심으로 변경\n- LMSOne(어드민) 로그인, 카카오톡 로그인, 로그인 확인 단계를 토스트로 표시\n- 카카오 로그인창이 뒤로 묻히는 문제를 줄이기 위해 로그인 단계에서 창을 일시 전면화하도록 보강\n- 카카오 로그인 완료 확인 대기 시간을 300초/2초 폴링에서 90초/0.6초 폴링으로 단축\n- 카카오 로그인 완료 후 상태 확정을 빠르게 수행하도록 재확인 로직 개선"
 }
