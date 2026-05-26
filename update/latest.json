@@ -1,7 +1,7 @@
 {
-  "version": "1.0.24",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.24/CoachManagement-1.0.24.zip",
-  "sha256": "3BB91276535A1E028BC600CDA78653F5F46FAA0B33490105B1B4CD3525389D03",
+  "version": "1.0.25",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.25/CoachManagement-1.0.25.zip",
+  "sha256": "282CA9E7AC99E44D2A6E367B0B7C1945D6631515BF607DCCCA72DED8F78C849F",
   "required": false,
-  "notes": "CoachManagement 1.0.24\n\n- 시작 연동 진행 안내를 로그인 화면 문구 중심에서 토스트 알림 중심으로 변경\n- LMSOne(어드민) 로그인, 카카오톡 로그인, 로그인 확인 단계를 토스트로 표시\n- 카카오 로그인창이 뒤로 묻히는 문제를 줄이기 위해 로그인 단계에서 창을 일시 전면화하도록 보강\n- 카카오 로그인 완료 확인 대기 시간을 300초/2초 폴링에서 90초/0.6초 폴링으로 단축\n- 카카오 로그인 완료 후 상태 확정을 빠르게 수행하도록 재확인 로직 개선"
+  "notes": "CoachManagement 1.0.25\n\n- 카카오 ChromeDriver 객체가 유실돼도 살아있는 카카오 Chrome의 DevTools 주소를 프로필에서 복구해 재연결하도록 개선\n- 기존 카카오 Chrome이 감지되면 새 Chrome/빈 탭을 반복 생성하지 않도록 차단\n- 재연결 실패 시에도 기존 Chrome에 카카오 채팅센터 탭을 직접 열도록 보강\n- 카카오 CDP 모니터 target 생성 시 about:blank 대신 카카오 채팅센터 URL로 바로 생성\n- 카카오 폴링에서 URL 확인과 DOM 조회를 한 번의 CDP 평가로 합쳐 폴링 시간을 단축"
 }
