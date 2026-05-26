@@ -1,7 +1,7 @@
 {
-  "version": "1.0.22",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.22/CoachManagement-1.0.22.zip",
-  "sha256": "6EB11B511F0C409725119602DA8CB342871892E0BE2E698736267DA442089D4A",
+  "version": "1.0.23",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.23/CoachManagement-1.0.23.zip",
+  "sha256": "A1682C4010CD8F1A5056080B3BE7C8CBAE735D11F3C53AA75CC7F72119E3CDC2",
   "required": false,
-  "notes": "CoachManagement 1.0.22\n\n- 카카오 ChromeDriver 연결이 끊겼을 때 기존 Chrome DevTools 주소로 재연결을 우선 시도하도록 개선\n- 카카오 상태등에 재연결/분리 상태를 노란색으로 표시해 알림 상태를 더 명확하게 표시\n- 카카오 알림 패널에 재연결 버튼 추가\n- 자동 카카오 복구와 폴링 복구가 새 Chrome 생성 전에 기존 카카오 Chrome 재연결을 먼저 시도하도록 변경"
+  "notes": "CoachManagement 1.0.23\n\n- 창 순위 정책 정리: 일반 팝업/로그창은 항상위 고정을 제거하고 토스트 알림만 항상위 유지\n- 카카오 알림 로그 팝업이 다른 프로그램 위에 계속 떠 있는 문제 수정\n- 프로그램 시작 흐름 개선: 앱 로그인 후 LMSOne 로그인, 카카오 로그인, 상태 확인 진행률을 로그인 화면에서 순서대로 표시\n- 카카오 로그인 창이 열릴 때 뒤로 묻히는 상황을 줄이도록 로그인 단계에서 카카오 창 전면화를 한 번 수행\n- 카카오 알림 폴링 최적화: 카카오 DOM을 대상자별 반복 조회하지 않고 1회 조회 후 담당자 set 필터로 처리\n- 카카오 날짜형 시간(예: 5월 24일)도 미처리 대화 알림 대상으로 처리\n- 카카오 폴링 단계별 소요시간 로그 추가\n- 종료 시 Selenium driver.quit() 멈춤으로 프로그램이 응답없음 상태에 빠지는 문제 완화\n- 이전 실행에서 남은 카카오 Chrome 프로필 잠금 감지 및 정리 후 재연결 버튼 추가"
 }
