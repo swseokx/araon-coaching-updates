@@ -1,7 +1,7 @@
 {
-  "version": "1.0.26",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.26/CoachManagement-1.0.26.zip",
-  "sha256": "B3A1A52EF51D2DF2C7A3E773DF45EB9FCD6DFE351971BFC13ABD02975CB7CF9B",
+  "version": "1.0.27",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.27/CoachManagement-1.0.27.zip",
+  "sha256": "4F97AB89EC93440ED2E67C3E14719822C2C2778B0845F47180CACCDD1985B2B4",
   "required": false,
-  "notes": "CoachManagement 1.0.26\n\n- 카카오 ChromeDriver 재연결 시 attach 모드에서 거부되는 excludeSwitches 옵션을 제거\n- 기존 카카오 Chrome이 살아있을 때 카카오 채팅센터 탭을 새로 계속 만들지 않고 기존 탭을 재사용하도록 수정\n- 카카오 드라이버 종료 후 복구 과정에서 같은 채팅센터 탭이 반복 생성되는 문제 완화"
+  "notes": "CoachManagement 1.0.27\n\n- 카카오 드라이버 health check 실패 기준을 8회에서 3회로 줄여 알림 공백 시간 단축\n- 죽은 DevToolsActivePort 포트 캐시를 즉시 무효화해 오래된 포트 반복 재시도 방지\n- 카카오 드라이버 종료 감지 시 상태 점검 흐름에서 즉시 재연결을 시도하도록 개선\n- 재연결 시도 폭주 방지를 위한 짧은 cooldown 추가"
 }
