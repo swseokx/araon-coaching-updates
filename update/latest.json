@@ -1,7 +1,7 @@
 {
-  "version": "1.0.25",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.25/CoachManagement-1.0.25.zip",
-  "sha256": "282CA9E7AC99E44D2A6E367B0B7C1945D6631515BF607DCCCA72DED8F78C849F",
+  "version": "1.0.26",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.26/CoachManagement-1.0.26.zip",
+  "sha256": "B3A1A52EF51D2DF2C7A3E773DF45EB9FCD6DFE351971BFC13ABD02975CB7CF9B",
   "required": false,
-  "notes": "CoachManagement 1.0.25\n\n- 카카오 ChromeDriver 객체가 유실돼도 살아있는 카카오 Chrome의 DevTools 주소를 프로필에서 복구해 재연결하도록 개선\n- 기존 카카오 Chrome이 감지되면 새 Chrome/빈 탭을 반복 생성하지 않도록 차단\n- 재연결 실패 시에도 기존 Chrome에 카카오 채팅센터 탭을 직접 열도록 보강\n- 카카오 CDP 모니터 target 생성 시 about:blank 대신 카카오 채팅센터 URL로 바로 생성\n- 카카오 폴링에서 URL 확인과 DOM 조회를 한 번의 CDP 평가로 합쳐 폴링 시간을 단축"
+  "notes": "CoachManagement 1.0.26\n\n- 카카오 ChromeDriver 재연결 시 attach 모드에서 거부되는 excludeSwitches 옵션을 제거\n- 기존 카카오 Chrome이 살아있을 때 카카오 채팅센터 탭을 새로 계속 만들지 않고 기존 탭을 재사용하도록 수정\n- 카카오 드라이버 종료 후 복구 과정에서 같은 채팅센터 탭이 반복 생성되는 문제 완화"
 }
