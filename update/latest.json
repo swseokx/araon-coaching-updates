@@ -1,7 +1,7 @@
 {
-  "version": "1.0.27",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.27/CoachManagement-1.0.27.zip",
-  "sha256": "4F97AB89EC93440ED2E67C3E14719822C2C2778B0845F47180CACCDD1985B2B4",
+  "version": "1.0.28",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.28/CoachManagement-1.0.28.zip",
+  "sha256": "8BAF9420714EBC21685E6BEDA88824B8788099EF4E92D08EC22B84FB896A6659",
   "required": false,
-  "notes": "CoachManagement 1.0.27\n\n- 카카오 드라이버 health check 실패 기준을 8회에서 3회로 줄여 알림 공백 시간 단축\n- 죽은 DevToolsActivePort 포트 캐시를 즉시 무효화해 오래된 포트 반복 재시도 방지\n- 카카오 드라이버 종료 감지 시 상태 점검 흐름에서 즉시 재연결을 시도하도록 개선\n- 재연결 시도 폭주 방지를 위한 짧은 cooldown 추가"
+  "notes": "CoachManagement 1.0.28\n\n- Selenium 상태 점검을 단일 lock/throttle 구조로 변경해 중복 health check와 프리징 완화\n- LMSOne도 카카오처럼 브라우저를 닫지 않고 기존 Chrome에 재연결하도록 개선\n- 카카오 CDP가 살아있으면 WebDriver 세션 흔들림을 즉시 실패로 처리하지 않도록 완화\n- WebDriver detach 시 ChromeDriver service를 정리해 프로세스 누적 가능성 감소\n- 카카오 대화창 직접 열기 크기와 foreground 처리 보강"
 }
