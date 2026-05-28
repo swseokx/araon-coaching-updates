@@ -1,7 +1,7 @@
 {
-  "version": "1.0.29",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.29/CoachManagement-1.0.29.zip",
-  "sha256": "A03DA49779455216DD75E2F358FDECA1F3CE51F667482D6129CAF7ADA1D2A631",
+  "version": "1.0.30",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.30/CoachManagement-1.0.30.zip",
+  "sha256": "205EE6A0015D0445FCAB967221FEB6FBD37D66BD232BA4CF87F4793A286772BE",
   "required": false,
-  "notes": "CoachManagement 1.0.29\n\n- 카카오/LMSOne 재연결 실패 시 죽은 debugger 포트 캐시를 즉시 제거\n- chrome not reachable / cannot connect to chrome 오류 반복 재시도 방지\n- 카카오 CDP target 캐시를 함께 초기화해 오래된 채팅센터 연결 재사용 방지\n- 죽은 포트 제거 후 새 DevToolsActivePort 탐색 또는 새 Chrome 생성 흐름으로 넘어가도록 보강"
+  "notes": "CoachManagement 1.0.30\n\n- LMSOne 상세 동기화를 학생별 API 호출에서 일괄 동기화 방식으로 변경\n- 서버에 /students/bulk-sync 추가: 생성/수정/변경없음/건너뜀 결과를 한 번에 처리\n- 상세 동기화 결과는 먼저 로컬 캐시에 저장하고 서버에는 운영에 필요한 최소 필드만 전송\n- 프로그램/카카오 로그 표시량과 읽기 방식을 줄여 저사양 PC에서 UI 멈춤을 완화\n- 카카오 채팅 링크 열기 fast path 추가로 이미 로그인된 상태의 대화창 열기 속도 개선\n- LMSOne 드라이버가 죽어도 기존 Chrome에 조용히 재연결하도록 복구 흐름 개선\n- LMSOne 상세정보 열람 버튼을 자동화용 상세창과 분리: 같은 학생은 기존 창 포커싱, 다른 학생은 별도 창으로 열림"
 }
