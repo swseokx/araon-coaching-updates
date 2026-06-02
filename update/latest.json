@@ -1,7 +1,7 @@
 {
-  "version": "1.0.31",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.0.31/CoachManagement-1.0.31.zip",
-  "sha256": "393B732854AF1E9491898B0ACFDA6386014AFC540DC62648C5F15656A93EE836",
+  "version": "1.1.0",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.1.0/CoachManagement-1.1.0.zip",
+  "sha256": "8F58F08981829C97CDA8761648DFEA4FC446BF80241B088C7C0D2B32E5FE361B",
   "required": false,
-  "notes": "CoachManagement 1.0.31\n\n- 카카오 WebDriver 복구 시 DevToolsActivePort 파일이 stale인 경우 실행 중인 Chrome 프로세스에서 remote debugging 포트를 직접 탐색\n- 기존 카카오 프로필 Chrome이 살아있는데 debugger 포트만 찾지 못한 경우 새 로그인 Chrome을 만들지 않도록 방지\n- 카카오 재연결 실패 후 2차 인증이 필요한 로그인창으로 넘어가는 상황을 줄이도록 복구 순서 보강"
+  "notes": "CoachManagement 1.1.0\n\n- 브라우저 자동화를 Playwright 기반으로 전환하여 세션 안정성 향상\n- 카카오 대화창을 새 창으로 열고 최상단 표시, 상담완료 자동화 개선\n- 신규 학생 등록에 코칭 요일/시간 입력 추가, 로그인 화면 정리\n- LMSone 세션 끊김 시 자동 재접속, 로그인 보안 강화"
 }
