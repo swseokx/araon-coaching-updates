@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.1.0/CoachManagement-1.1.0.zip",
-  "sha256": "8F58F08981829C97CDA8761648DFEA4FC446BF80241B088C7C0D2B32E5FE361B",
+  "version": "1.1.1",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.1.1/CoachManagement-1.1.1.zip",
+  "sha256": "01F3481BBD5EFA16789861CC5CC1A94833D706913BCDCF58BC10E1040093D6AB",
   "required": false,
-  "notes": "CoachManagement 1.1.0\n\n- 브라우저 자동화를 Playwright 기반으로 전환하여 세션 안정성 향상\n- 카카오 대화창을 새 창으로 열고 최상단 표시, 상담완료 자동화 개선\n- 신규 학생 등록에 코칭 요일/시간 입력 추가, 로그인 화면 정리\n- LMSone 세션 끊김 시 자동 재접속, 로그인 보안 강화"
+  "notes": "CoachManagement 1.1.1\n\n- 전체 UI를 토스 스타일로 개선 (아라온 블루 + Pretendard 폰트 통일)\n- 메인 대시보드: 카드형 목록 기본 표시, 정렬 드롭다운, 버튼/색 정리\n- 학생 상세·내 학생 관리: 버튼 색 통일로 가독성 향상\n- 단체 카톡: 이름 검색 + 이름/만료일 정렬 기능 추가\n- 체크박스/라디오 모던 디자인 적용\n- 런처 화면 밝은 테마 전환, 로그아웃 시 런처 재진입\n- 카카오 대화창 새 창으로 열기 및 최상단 표시 개선"
 }
