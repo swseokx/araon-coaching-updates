@@ -1,7 +1,7 @@
 {
-  "version": "1.1.9",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.1.9/CoachManagement-1.1.9.zip",
-  "sha256": "01CC42C0BAA3E8241CCD6A6044C7ED0BCBCD43612F2274B73CDE80A2909DC229",
+  "version": "1.2.0",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.2.0/CoachManagement-1.2.0.zip",
+  "sha256": "2FA8C9B2777EB07A629175262196D493C30AE1B581E9E0BCAE0B9630CB265F40",
   "required": false,
-  "notes": "CoachManagement 1.1.9\n\n- [중요] 일부 PC에서 LMSone/카카오 로그인이 전혀 안 되던 문제 해결: 내 PC에 설치된 Chrome(없으면 Edge)을 사용하도록 변경 (이전엔 별도 설치가 필요한 브라우저를 찾다 실패)\n\nCoachManagement 1.1.8\n\n- 팀 전체 카톡: 대상이 많을 때(전체팀) 프로그램이 멈추던(응답없음) 문제 수정 - 끊어 그리기 + 경량 렌더\n- '전체' 권한(전체 팀장)은 1·2·3팀 전부 조회 가능 (관리자와 동일하게 전체 팀 표시)\n- 인사·계정 관리: 계정 '완전 삭제' 추가 (퇴사 처리와 별개, 2단계 확인)\n\nCoachManagement 1.1.7\n\n- LMSone 로그인 정보 설정 중 오류 메시지 표시 시 발생하던 크래시 수정\n\nCoachManagement 1.1.6\n\n- 카카오 채팅창이 독립 창으로 열릴 때, 그 채팅창이 정확히 최상단으로 올라오도록 수정(센터 창이 아닌 새 창을 직접 인식)\n\nCoachManagement 1.1.5\n\n- 숙제 결과보기: 정답 수가 누락되어 \"-/5\"로 보이던 점수를 실제 문항으로 계산해 정확히 표시\n- 숙제 결과보기: 정/오답을 글자 없이 색상으로 구분(정답=초록, 오답=빨강)\n- 코칭 시작 시 LMSone 상세는 독립된 새 창으로 열림 (상세창을 닫아도 LMSone 관리 페이지가 닫히지 않음)\n- 공지 삭제 권한: 관리자는 전체 공지 삭제, 팀장은 자기 팀 공지만 삭제 가능\n- (1.1.4 포함) 상세 카톡 독립 새 창, 만료일 달력+저장 확인, 보강 처리 설명, 오늘 대시보드 컬럼 정리(전화번호), 학생추가 링크 전 입력 잠금, 카카오 등록/버그제보 버튼 크기, 카톡/LMSone 자동 재접속\n- (이전 포함) 팀 화면 속도 개선, 팀 메뉴 통합+학생 검색, 전환 깜빡임 개선, 로컬 데이터 삭제"
+  "notes": "CoachManagement 1.2.0\n\n- LMSone 상세 동기화 주기를 '월 1회 → 매일 1회'로 변경 (코칭시간/연장 변경이 다음날 반영)\n- 동기화 변경 이력을 로컬 파일(sync_changes.log)에 기록: 학생/필드/이전→이후/방향(LMSone→로컬, 이PC→서버)\n- (1.1.9 포함) 시스템 Chrome/Edge 사용으로 로그인 문제 해결, 인사관리 계정 완전 삭제"
 }
