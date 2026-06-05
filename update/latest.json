@@ -1,7 +1,7 @@
 {
-  "version": "1.2.1",
-  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.2.1/CoachManagement-1.2.1.zip",
-  "sha256": "B7AF533FC2027B12133E7A91157CF5BEAE468191BE2669BC474A0A9657207E08",
+  "version": "1.2.2",
+  "url": "https://github.com/swseokx/araon-coaching-updates/releases/download/v1.2.2/CoachManagement-1.2.2.zip",
+  "sha256": "E4E3613DB53F2141ABD3D44988949B8340E7BC6409D016E64AFA91D827435CC9",
   "required": false,
-  "notes": "CoachManagement 1.2.1\n\n- [안전] 동기화 시 빈 데이터로 서버를 덮어쓰지 않도록 보강(코칭요일/시간 등 데이터 보호). LMSone이 비어보이면 자동 삭제 대신 검토 기록만 남김\n- 동기화 변경 이력 로그 정리(내부 필드 제외), 자동 동기화 시작 지연 및 진행 표시 개선\n- LMSone 상세 동기화 주기를 '월 1회 → 매일 1회'로 변경 (코칭시간/연장 변경이 다음날 반영)\n- 동기화 변경 이력을 로컬 파일(sync_changes.log)에 기록: 학생/필드/이전→이후/방향(LMSone→로컬, 이PC→서버)\n- (1.1.9 포함) 시스템 Chrome/Edge 사용으로 로그인 문제 해결, 인사관리 계정 완전 삭제"
+  "notes": "CoachManagement 1.2.2\n\n- 동기화 검토 팝업 추가: LMSone에서 비어보이는 항목(코칭요일/시간/만료일)은 자동 삭제하지 않고, 사용자가 체크해 확인한 것만 비웁니다 (값 변경은 그대로 자동 반영)\n\n- [안전] 동기화 시 빈 데이터로 서버를 덮어쓰지 않도록 보강(코칭요일/시간 등 데이터 보호). LMSone이 비어보이면 자동 삭제 대신 검토 기록만 남김\n- 동기화 변경 이력 로그 정리(내부 필드 제외), 자동 동기화 시작 지연 및 진행 표시 개선\n- LMSone 상세 동기화 주기를 '월 1회 → 매일 1회'로 변경 (코칭시간/연장 변경이 다음날 반영)\n- 동기화 변경 이력을 로컬 파일(sync_changes.log)에 기록: 학생/필드/이전→이후/방향(LMSone→로컬, 이PC→서버)\n- (1.1.9 포함) 시스템 Chrome/Edge 사용으로 로그인 문제 해결, 인사관리 계정 완전 삭제"
 }
